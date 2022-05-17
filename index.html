@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="info">
+      <form action="">
+        <div class="container">
+          <label for="">FirsName</label> <br />
+          <input type="text" placeholder="FirsName" id="fname" /><br />
+          <label for="">LastName</label><br />
+          <input type="text" placeholder="LastName" id="lname" /><br />
+          <label for="">Email</label><br />
+          <input type="email" placeholder="Email" id="email" /><br />
+          <label for="">Address</label><br />
+          <input type="text" placeholder="Address" id="address" / ><br />
+
+          <div class="add_btn">
+            <button class="submit">Submit</button>
+            <button class="reset">Reset</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="tables">
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <th>FirsName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
