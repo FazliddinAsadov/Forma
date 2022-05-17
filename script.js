@@ -29,11 +29,13 @@ submitBtn.addEventListener("click", function (e) {
   <td>${obj.email}</td>
   <td>${obj.address}</td>
   <td>
-  
+  <div claas="btn">
   <button class="editBtn"  onClick="onEdit(this)"> Edit</button>
   <button class="deleteBtn" onClick="onDelete(this)">Delete</button></td>
+  </div>
   `;
   tbody.appendChild(tr);
+  
 });
 
 function onEdit(e) {
